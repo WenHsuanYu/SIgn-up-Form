@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="main">
+        <img src="./halie-west-25xggax4bSA-unsplash.jpg" alt="Forest pic">
+        <div class="title">
+            <p>Preserve Forest</p>
+        </div>
+    </div>
+    <div class="intro">
+        <p class="bigfont">This is not a real online service! You know you
+            need something like this in your life to help you realize your deepe
+            st dreams. Sign up <span class="italic">now</span> to get started.
+        </p>
+        <p class="bigfont">You <span>know</span> you want to.</p>
+    </div>
+    <form action="" class="post">post
+        <fieldset>
+            <legend class="bigfont">Let's do this!</legend>
+            <div class="row1">
+              <div>
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" autocomplete="given-name" required>
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" autocomplete="family-name" required>
+              </div>
+            </div>
+            <div class="row2">
+                <div>
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" required autocomplete="email">
+                  <label for="phone">PHONE NUMBER</label>
+                  <input type="tel" id="phone" autocomplete="tel" pattern="^(((d{2}))|(d{2})-?(d{4})-?(d{4}))" placeholder=" ">
+                </div>
+            </div>
+            <div class="row3">
+              <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" required autocomplete="new-password" placeholder=" ">
+                <label for="confirmed-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmed-password" autocomplete="new-password" placeholder=" " required>
+              </div>
+            </div>
+        </fieldset>
+        <div class="shadow"></div>
+    </form>
+    <div class="login">
+      <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+    
+    <footer id="footer">
+    Created by Wen-Hsuan, Yu | Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </footer>
+</body>
+</html>
